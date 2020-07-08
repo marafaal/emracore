@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module configVersion="1.2">
+
+	<!-- Module Properties -->
+	<id>emracore</id>
+	<name>Emra core Module</name>
+	<version>1.0</version>
+	<package>org.openmrs.module.emracore</package>
+	<author>marafa</author>
+	<description>
+		Module that contains the added functionalities of emra
+	</description>
+	<updateURL>https://modules.openmrs.org/modules/download/emracore/update.rdf</updateURL>
+	<require_version>2.0.1</require_version>
+	<require_modules>
+	
+    <require_module version="3.17.0">
+			org.openmrs.module.uiframework
+		</require_module>
+     <require_module version="2.14.0">
+			org.openmrs.module.appframework
+		</require_module>
+	<require_module version="2.12.0">
+            org.openmrs.module.uicommons
+        </require_module>
+
+
+</require_modules>
+	
+	
+	
+	<!-- / Module Properties -->
+
+	
+	<!-- Module Activator -->
+	<activator>org.openmrs.module.emracore.EmracoreActivator</activator>
+	
+	
+	<!-- Maps hibernate file's, if present -->
+	<mappingFiles>
+				
+	</mappingFiles>
+
+	<!-- Internationalization -->
+	<!-- All message codes should start with emracore. -->
+	<messages>
+		<lang>en</lang>
+		<file>messages.properties</file>
+	</messages>
+	<messages>
+		<lang>fr</lang>
+		<file>messages_fr.properties</file>
+	</messages>
+	<messages>
+		<lang>es</lang>
+		<file>messages_es.properties</file>
+	</messages>
+	<!-- /Internationalization -->
+
+</module>
+

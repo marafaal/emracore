@@ -1,0 +1,10 @@
+[
+    {
+        "id": "org.openmrs.module.emracore.patientDashboard.secondColumnFragments",
+        "extensionPointId": "patientDashboard.secondColumnFragments",
+        "extensionParams": {
+            "provider": "emracore",
+            "fragment": "vaccinations"
+        }
+    }
+]

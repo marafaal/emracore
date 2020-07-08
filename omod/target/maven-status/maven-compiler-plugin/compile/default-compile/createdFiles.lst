@@ -1,0 +1,3 @@
+org\openmrs\module\emracore\page\controller\AddingvacPageController.class
+org\openmrs\module\emracore\page\controller\AddvacPageController.class
+org\openmrs\module\emracore\page\controller\VaccinationsPageController.class

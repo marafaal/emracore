@@ -1,4 +1,6 @@
 <%
+   ui.decorateWith("appui", "standardEmrPage")
+
     ui.includeJavascript("uicommons", "angular.js")
     ui.includeJavascript("uicommons", "angular-resource.min.js")
     ui.includeJavascript("uicommons", "angular.min.js")

@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class AddvacPageController {
 
 	public void controller(PageModel model,@RequestParam(required=false, value="patientId") Patient patient, @RequestParam(value = "returnUrl", required = false) String returnUrl) {
-		Concept concept = Context.getConceptService().getConcept(165865);
+		/* Concept concept = Context.getConceptService().getConcept(165865);
 		
 		model.addAttribute("answers", concept.getAnswers());
-		model.addAttribute("returnUrl", returnUrl);
+		model.addAttribute("returnUrl", returnUrl); */
 	    
 	}
 }
